@@ -1,0 +1,132 @@
+/* Empty. Add your own CSS if you like */
+.marg0{
+    margin: 0px;
+}
+
+.logo {
+    color: #a2c046;
+    background-color: none;
+    text-transform: uppercase;
+}
+
+.bg_green{
+    background-color: #a2c046;
+}
+
+.bg_floor{
+    background-image: url("../img/leafs_dark.png");
+    background-repeat: repeat;
+}
+
+.mid-logo-wrapper .logo-description {
+    color: #ababab;
+    font-weight: bold;
+    margin: 15px auto;
+    width: 50%;
+}
+
+.ad728-wrapper {
+    text-align: center;
+    max-width: 728px;
+    margin: 30px auto 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    backface-visibility: hidden;
+}
+.logpop .popup{
+    background-color: white;
+}
+
+.logpop .popup-head{
+    background-color: #ef473a;
+}
+
+.regispop .popup-head{
+    background-color: #444;
+}
+
+.logpop .popup-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logpop .popup-sub-title{
+    color: #fff;
+    font-size: 12px;
+}
+
+.logform .item{
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logform .item .input-label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tabs-striped.tabs-positive .tabs {
+    background-color: none;
+    background-image: url("../img/bg_head.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.item h2{
+    font-weight: bold;
+    color: #a2c046;
+}
+
+.item p{
+    font-weight: bold;
+    color:#bababa;
+}
+
+.item-avatar p, .item-body p{
+    font-weight: bold;
+    color:#464646;
+}
+
+.item .star{
+    color: #ffb200;
+}
+
+a.item {
+    color: inherit;
+    text-decoration: none;
+    background-image: url("../img/leafs_dark.png");
+    background-repeat: repeat;
+    background-size: initial;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tit{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media (max-width: 400px){
+    .mid-logo-wrapper .logo {
+        font-size: 55px;
+        line-height: 38px;
+    }
+
+    .mid-logo-wrapper .logo-description {
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
